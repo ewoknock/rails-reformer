@@ -34,7 +34,7 @@
     <%= form.label("Username:") %>
     <%= form.text_field :username %>
     <%= form.label("Email: ") %>
-    <%= form.email_field :email %>
+    <%= form.email_field :email, placeholder: "user@email.com" %>
     <%= form.label("Password: ") %>
     <%= form.password_field :password %>
     <%= form.submit "Create new Account" %>
